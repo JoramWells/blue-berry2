@@ -9,7 +9,7 @@ import { CssBaseline, StyledEngineProvider } from '@mui/material';
 import themes from 'themes';
 
 // local imports
-import NavigationScroll from 'layout/NavigationScroll';
+import NavigationScroll from 'components/layout/NavigationScroll';
 
 const AppProvider = ({children}) => {
     const customization = useSelector((state) => state.customization);
